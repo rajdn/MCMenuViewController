@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B52FB64149FEF530069EC31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52FB63149FEF530069EC31 /* UIKit.framework */; };
+		5B52FB66149FEF530069EC31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52FB65149FEF530069EC31 /* Foundation.framework */; };
+		5B52FB68149FEF530069EC31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52FB67149FEF530069EC31 /* CoreGraphics.framework */; };
+		5B52FB6E149FEF530069EC31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B52FB6C149FEF530069EC31 /* InfoPlist.strings */; };
+		5B52FB70149FEF530069EC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FB6F149FEF530069EC31 /* main.m */; };
+		5B52FB74149FEF530069EC31 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FB73149FEF530069EC31 /* MCAppDelegate.m */; };
+		5B52FB7F149FEF920069EC31 /* MCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FB7D149FEF920069EC31 /* MCRootViewController.m */; };
+		5B52FB80149FEF920069EC31 /* MCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B52FB7E149FEF920069EC31 /* MCRootViewController.xib */; };
+		5B52FBB8149FFAC00069EC31 /* MCMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FBB7149FFAC00069EC31 /* MCMenuViewController.m */; };
+		5B52FBBF149FFBCF0069EC31 /* MCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FBBD149FFBCF0069EC31 /* MCDetailViewController.m */; };
+		5B52FBC0149FFBCF0069EC31 /* MCDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B52FBBE149FFBCF0069EC31 /* MCDetailViewController.xib */; };
+		5B52FBC5149FFCDE0069EC31 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52FBC3149FFCDE0069EC31 /* back.png */; };
+		5B52FBC6149FFCDE0069EC31 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B52FBC4149FFCDE0069EC31 /* back@2x.png */; };
+		5B52FBCA149FFCFD0069EC31 /* MCSubDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FBC8149FFCFD0069EC31 /* MCSubDetailViewController.m */; };
+		5B52FBCB149FFCFD0069EC31 /* MCSubDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B52FBC9149FFCFD0069EC31 /* MCSubDetailViewController.xib */; };
+		5B52FBCD149FFD170069EC31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52FBCC149FFD170069EC31 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B52FB5F149FEF530069EC31 /* MCMenuViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMenuViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B52FB63149FEF530069EC31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B52FB65149FEF530069EC31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B52FB67149FEF530069EC31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B52FB6B149FEF530069EC31 /* MCMenuViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMenuViewController-Info.plist"; sourceTree = "<group>"; };
+		5B52FB6D149FEF530069EC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B52FB6F149FEF530069EC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B52FB71149FEF530069EC31 /* MCMenuViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCMenuViewController-Prefix.pch"; sourceTree = "<group>"; };
+		5B52FB72149FEF530069EC31 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		5B52FB73149FEF530069EC31 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		5B52FB7C149FEF920069EC31 /* MCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRootViewController.h; sourceTree = "<group>"; };
+		5B52FB7D149FEF920069EC31 /* MCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRootViewController.m; sourceTree = "<group>"; };
+		5B52FB7E149FEF920069EC31 /* MCRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCRootViewController.xib; sourceTree = "<group>"; };
+		5B52FBB6149FFAC00069EC31 /* MCMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMenuViewController.h; sourceTree = "<group>"; };
+		5B52FBB7149FFAC00069EC31 /* MCMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMenuViewController.m; sourceTree = "<group>"; };
+		5B52FBBC149FFBCF0069EC31 /* MCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDetailViewController.h; sourceTree = "<group>"; };
+		5B52FBBD149FFBCF0069EC31 /* MCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDetailViewController.m; sourceTree = "<group>"; };
+		5B52FBBE149FFBCF0069EC31 /* MCDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCDetailViewController.xib; sourceTree = "<group>"; };
+		5B52FBC3149FFCDE0069EC31 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		5B52FBC4149FFCDE0069EC31 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		5B52FBC7149FFCFD0069EC31 /* MCSubDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSubDetailViewController.h; sourceTree = "<group>"; };
+		5B52FBC8149FFCFD0069EC31 /* MCSubDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSubDetailViewController.m; sourceTree = "<group>"; };
+		5B52FBC9149FFCFD0069EC31 /* MCSubDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCSubDetailViewController.xib; sourceTree = "<group>"; };
+		5B52FBCC149FFD170069EC31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B52FB5C149FEF530069EC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B52FBCD149FFD170069EC31 /* QuartzCore.framework in Frameworks */,
+				5B52FB64149FEF530069EC31 /* UIKit.framework in Frameworks */,
+				5B52FB66149FEF530069EC31 /* Foundation.framework in Frameworks */,
+				5B52FB68149FEF530069EC31 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B52FB54149FEF530069EC31 = {
+			isa = PBXGroup;
+			children = (
+				5B52FB69149FEF530069EC31 /* MCMenuViewController */,
+				5B52FB62149FEF530069EC31 /* Frameworks */,
+				5B52FB60149FEF530069EC31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B52FB60149FEF530069EC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FB5F149FEF530069EC31 /* MCMenuViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B52FB62149FEF530069EC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FBCC149FFD170069EC31 /* QuartzCore.framework */,
+				5B52FB63149FEF530069EC31 /* UIKit.framework */,
+				5B52FB65149FEF530069EC31 /* Foundation.framework */,
+				5B52FB67149FEF530069EC31 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B52FB69149FEF530069EC31 /* MCMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FB7A149FEF5E0069EC31 /* Source */,
+				5B52FB7B149FEF7E0069EC31 /* Demo */,
+				5B52FB72149FEF530069EC31 /* MCAppDelegate.h */,
+				5B52FB73149FEF530069EC31 /* MCAppDelegate.m */,
+				5B52FB6A149FEF530069EC31 /* Supporting Files */,
+			);
+			path = MCMenuViewController;
+			sourceTree = "<group>";
+		};
+		5B52FB6A149FEF530069EC31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FBC3149FFCDE0069EC31 /* back.png */,
+				5B52FBC4149FFCDE0069EC31 /* back@2x.png */,
+				5B52FB6B149FEF530069EC31 /* MCMenuViewController-Info.plist */,
+				5B52FB6C149FEF530069EC31 /* InfoPlist.strings */,
+				5B52FB6F149FEF530069EC31 /* main.m */,
+				5B52FB71149FEF530069EC31 /* MCMenuViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B52FB7A149FEF5E0069EC31 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FBB6149FFAC00069EC31 /* MCMenuViewController.h */,
+				5B52FBB7149FFAC00069EC31 /* MCMenuViewController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5B52FB7B149FEF7E0069EC31 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FB7C149FEF920069EC31 /* MCRootViewController.h */,
+				5B52FB7D149FEF920069EC31 /* MCRootViewController.m */,
+				5B52FB7E149FEF920069EC31 /* MCRootViewController.xib */,
+				5B52FBC1149FFBD60069EC31 /* Detail View Controller */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		5B52FBC1149FFBD60069EC31 /* Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FBBC149FFBCF0069EC31 /* MCDetailViewController.h */,
+				5B52FBBD149FFBCF0069EC31 /* MCDetailViewController.m */,
+				5B52FBBE149FFBCF0069EC31 /* MCDetailViewController.xib */,
+				5B52FBC2149FFBE00069EC31 /* Sub Detail View Controller */,
+			);
+			name = "Detail View Controller";
+			sourceTree = "<group>";
+		};
+		5B52FBC2149FFBE00069EC31 /* Sub Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B52FBC7149FFCFD0069EC31 /* MCSubDetailViewController.h */,
+				5B52FBC8149FFCFD0069EC31 /* MCSubDetailViewController.m */,
+				5B52FBC9149FFCFD0069EC31 /* MCSubDetailViewController.xib */,
+			);
+			name = "Sub Detail View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B52FB5E149FEF530069EC31 /* MCMenuViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B52FB77149FEF530069EC31 /* Build configuration list for PBXNativeTarget "MCMenuViewController" */;
+			buildPhases = (
+				5B52FB5B149FEF530069EC31 /* Sources */,
+				5B52FB5C149FEF530069EC31 /* Frameworks */,
+				5B52FB5D149FEF530069EC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCMenuViewController;
+			productName = MCMenuViewController;
+			productReference = 5B52FB5F149FEF530069EC31 /* MCMenuViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B52FB56149FEF530069EC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mocha Code";
+			};
+			buildConfigurationList = 5B52FB59149FEF530069EC31 /* Build configuration list for PBXProject "MCMenuViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B52FB54149FEF530069EC31;
+			productRefGroup = 5B52FB60149FEF530069EC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B52FB5E149FEF530069EC31 /* MCMenuViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B52FB5D149FEF530069EC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B52FB6E149FEF530069EC31 /* InfoPlist.strings in Resources */,
+				5B52FB80149FEF920069EC31 /* MCRootViewController.xib in Resources */,
+				5B52FBC0149FFBCF0069EC31 /* MCDetailViewController.xib in Resources */,
+				5B52FBC5149FFCDE0069EC31 /* back.png in Resources */,
+				5B52FBC6149FFCDE0069EC31 /* back@2x.png in Resources */,
+				5B52FBCB149FFCFD0069EC31 /* MCSubDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B52FB5B149FEF530069EC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B52FB70149FEF530069EC31 /* main.m in Sources */,
+				5B52FB74149FEF530069EC31 /* MCAppDelegate.m in Sources */,
+				5B52FB7F149FEF920069EC31 /* MCRootViewController.m in Sources */,
+				5B52FBB8149FFAC00069EC31 /* MCMenuViewController.m in Sources */,
+				5B52FBBF149FFBCF0069EC31 /* MCDetailViewController.m in Sources */,
+				5B52FBCA149FFCFD0069EC31 /* MCSubDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B52FB6C149FEF530069EC31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B52FB6D149FEF530069EC31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B52FB75149FEF530069EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B52FB76149FEF530069EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B52FB78149FEF530069EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCMenuViewController/MCMenuViewController-Prefix.pch";
+				INFOPLIST_FILE = "MCMenuViewController/MCMenuViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B52FB79149FEF530069EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCMenuViewController/MCMenuViewController-Prefix.pch";
+				INFOPLIST_FILE = "MCMenuViewController/MCMenuViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B52FB59149FEF530069EC31 /* Build configuration list for PBXProject "MCMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B52FB75149FEF530069EC31 /* Debug */,
+				5B52FB76149FEF530069EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B52FB77149FEF530069EC31 /* Build configuration list for PBXNativeTarget "MCMenuViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B52FB78149FEF530069EC31 /* Debug */,
+				5B52FB79149FEF530069EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B52FB56149FEF530069EC31 /* Project object */;
+}
