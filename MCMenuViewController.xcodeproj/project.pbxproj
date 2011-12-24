@@ -23,6 +23,8 @@
 		5B52FBCA149FFCFD0069EC31 /* MCSubDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B52FBC8149FFCFD0069EC31 /* MCSubDetailViewController.m */; };
 		5B52FBCB149FFCFD0069EC31 /* MCSubDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B52FBC9149FFCFD0069EC31 /* MCSubDetailViewController.xib */; };
 		5B52FBCD149FFD170069EC31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52FBCC149FFD170069EC31 /* QuartzCore.framework */; };
+		5BD506B814A6089F00B1D21C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD506B714A6089F00B1D21C /* Icon.png */; };
+		5BD506BB14A608A200B1D21C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD506BA14A608A200B1D21C /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		5B52FBC8149FFCFD0069EC31 /* MCSubDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSubDetailViewController.m; sourceTree = "<group>"; };
 		5B52FBC9149FFCFD0069EC31 /* MCSubDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCSubDetailViewController.xib; sourceTree = "<group>"; };
 		5B52FBCC149FFD170069EC31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5BD506B714A6089F00B1D21C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		5BD506BA14A608A200B1D21C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 		5B52FB6A149FEF530069EC31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BD506BA14A608A200B1D21C /* Icon@2x.png */,
+				5BD506B714A6089F00B1D21C /* Icon.png */,
 				5B52FBC3149FFCDE0069EC31 /* back.png */,
 				5B52FBC4149FFCDE0069EC31 /* back@2x.png */,
 				5B52FB6B149FEF530069EC31 /* MCMenuViewController-Info.plist */,
@@ -218,6 +224,8 @@
 				5B52FBC5149FFCDE0069EC31 /* back.png in Resources */,
 				5B52FBC6149FFCDE0069EC31 /* back@2x.png in Resources */,
 				5B52FBCB149FFCFD0069EC31 /* MCSubDetailViewController.xib in Resources */,
+				5BD506B814A6089F00B1D21C /* Icon.png in Resources */,
+				5BD506BB14A608A200B1D21C /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
